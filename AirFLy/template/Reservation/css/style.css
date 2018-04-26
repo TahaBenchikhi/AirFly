@@ -1,0 +1,492 @@
+body
+{
+   background-color: #e9e9e9;
+}
+div.container
+{
+
+   min-height: 400px;
+   position: absolute;
+
+   top: 2px;
+     width: 1100px;
+  left: calc(50% - 550px);
+}
+div#search_cn
+{
+   top: -50px;
+   left:-17px;
+}
+div.flights
+{
+  position: relative;
+  width: 1100px;
+  left: calc(50% - 550px);
+  top: 50px;
+  transition : all 0.6s;
+}
+
+div.one
+{
+  background-color: white;
+  width: 539px;
+  position: relative;
+  border-radius: 2px;
+  float: left;
+  margin-left: 10px;
+}
+
+div.one_cnt
+{
+    background-color: white;
+    width: 100%;
+    float: left;
+    height: 90px;
+    padding-top: 73px;
+}
+
+
+div.one_detail
+{
+    background-color: white;
+    width: 100%;
+    height: 115px;
+    display:block;
+    position: relative;
+    top: 90px;
+}
+
+
+div.found
+{
+  position: absolute;
+  width: 200px;
+  text-align: center;
+  height: 30px;
+  left: calc(50% - 100px);
+  top: 151px;
+  font-size: 17px;
+  font-family: "roboto2";
+  color: #555;
+}
+div.direct
+{
+  position: absolute;
+  left: 39px;
+  height: 100%;
+  width: 300px;
+}
+div.direct p:first-child
+{
+  position: absolute;
+  color: #607D8B;
+  font-size: 13px;
+  font-family: 'roboto2';
+  left: 97px;
+  top: 21px;
+}
+div.direct p:first-child i
+{
+  width: 89px;
+  height: 30px;
+  background-image: url('../../../template/Extras/Image/go.png');
+  position: absolute;
+  background-size: 100% 100%;
+  opacity: 0.3;
+  left: -11px;
+  top: 10px;
+}
+div.direct span:nth-child(2)
+{
+  position: absolute;
+  left: 96px;
+  top: 56px;
+  width: 68px;
+  height: 17px;
+  background-color: #009e3b;
+  border-radius: 3px;
+  color: white;
+  font-size: 11px;
+  font-family: 'roboto2';
+  text-align: center;
+  padding-top: 6px;
+}
+div.direct p:nth-child(3)
+{
+  position: absolute;
+  color: #607D8B;
+  font-size: 27px;
+  font-family: 'roboto2';
+  left: 11px;
+  top: 17px;
+}
+div.direct p:nth-child(3) i 
+{
+  position: absolute;
+  color: #9E9E9E;
+  font-size: 14px;
+  font-family: 'roboto2';
+  left: 17px;
+  top: 38px;
+  font-style: normal;
+}
+div.direct p:nth-child(4)
+{
+  position: absolute;
+  color: #607D8B;
+  font-size: 27px;
+  font-family: 'roboto2';
+  left: 183px;
+  top: 19px;
+}
+div.direct p:nth-child(4) i
+{
+  position: absolute;
+  color: #9E9E9E;
+  font-size: 14px;
+  font-family: 'roboto2';
+  left: 17px;
+  top: 38px;
+  font-style: normal;
+}
+
+div.one img
+{
+  position: absolute;
+  left: 345px;
+  top: 25px;
+  width: 132px;
+  height: 70px;
+}
+ 
+#cmpy
+{
+    position: absolute;
+    top: 7px;
+    left: 321px;
+    font-size: 13px;
+    font-family: 'roboto2';
+    text-align: center;
+    width: 200px;
+    color: #607D8B;
+
+}
+
+
+
+
+/* Detail One *******************************************************************/
+div.one_detail p:nth-child(1)
+{
+    position: absolute;
+    top: -147px;
+    left: 58px;
+    font-size: 38px;
+    font-family: 'roboto';
+    text-align: center;
+    width: 200px;
+    color: #009688;
+}
+div.one_detail p:nth-child(2)
+{
+      position: absolute;
+      top: 20px;
+      left: 85px;
+      font-size: 15px;
+      font-family: 'roboto2';
+      text-align: center;
+      width: 200px;
+      color: #607D8B;
+}
+div.one_detail p:nth-child(3)
+{
+      position: absolute;
+      top: 21px;
+      left: 246px;
+      font-size: 13px;
+      font-family: 'roboto2';
+      text-align: center;
+      width: 200px;
+      color: #4CAF50;
+}
+div.one_detail p:nth-child(3) i
+{
+  font-style: normal;
+}
+div.one_detail p:nth-child(4)
+{
+      position: absolute;
+      top: 47px;
+      left: 133px;
+      font-size: 13px;
+      font-family: 'roboto2';
+      color: #777;
+      width: 315px;
+      text-align: left;
+}
+div.one_detail p:nth-child(5)
+{
+      position: absolute;
+      top: 67px;
+      left: 133px;
+      font-size: 13px;
+      font-family: 'roboto2';
+      color: #777;
+      width: 315px;
+      text-align: left;
+}
+div.one_detail p:nth-child(4) i:nth-child(1),div.one_detail p:nth-child(5) i:nth-child(1)
+{
+  font-size: 13px;
+  top: 0;
+  left: 49px;
+  position: absolute;
+  font-style: normal;
+  color: #607D8B;
+}
+div.one_detail p:nth-child(4) i:nth-child(2),div.one_detail p:nth-child(5) i:nth-child(2)
+{
+  font-size: 13px;
+  top: 0;
+  left: 96px;
+  position: absolute;
+  font-style: normal;
+  color: #607D8B;
+}
+div.one_detail p:nth-child(4) i:nth-child(3),div.one_detail p:nth-child(5) i:nth-child(3)
+{
+  font-size: 13px;
+  top: 0;
+  left: 137px;
+  position: absolute;
+  font-style: normal;
+  color: #009688;
+}
+div.one_detail img:last-child
+{
+      position: absolute;
+      top: 36px;
+      left: 14px;
+      width: 70px;
+      height: 50px;
+}
+div.one_detail p:nth-child(6)
+{
+      position: absolute;
+      top: 88px;
+      left: 133px;
+      font-size: 13px;
+      font-family: 'roboto2';
+      color: #777;
+      width: 315px;
+      text-align: left;
+}
+div.one_detail p:nth-child(6) i
+{
+    font-size: 13px;
+    top: 0;
+    left: 52px;
+    position: absolute;
+    font-style: normal;
+    color: #009688;
+}
+div.one_detail span:nth-child(7)
+{
+        position: absolute;
+        top: 20px;
+        left: 368px;
+        font-size: 13px;
+        font-family: 'roboto2';
+        text-align: center;
+        width: 200px;
+        color: #0077B1;
+}
+div.one_detail span:nth-child(7)::first-letter
+{
+text-transform: capitalize;
+}
+
+div#all
+{
+  position: absolute;
+  width: 100%;
+  top: 354px;
+  border-radius: 3px;
+  padding-top: 51px;
+  border: 1px solid #D2D2D2;
+}
+
+div.forms
+{
+  position: relative;
+  top: 25px;
+  width: 100%;
+}
+div.form,div.f
+{float: left;display: block;width: 100%;height: 80px;border-bottom: 1px solid whitesmoke;position: relative;background: whitesmoke;margin-top: 3px;}
+div.form select
+{
+    width: 120px;
+    height: 40px;
+    font-family: "roboto";
+    font-size: 14px;
+    color: gray;
+    border: none;
+    border: 1px solid #CECDCD;
+    border-radius: 2px;
+    text-align: center;
+    outline: none;
+    position: absolute;
+    left: 109px;
+    top: 18px;
+}
+div.form select option
+{
+  font-family: "roboto";
+font-size: 14px;
+outline: none;
+}
+div.form select option:hover{background-color: whitesmoke;}
+div.form input:nth-child(2)
+{width: 210px;height: 40px;font-family: "roboto";font-size: 14px;color: gray;border: none;border: 1px solid #CECDCD;border-radius: 2px;text-align: left;outline: none;position: absolute;left: 237px;top: 18px;padding-left: 17px;}
+div.form input:nth-child(3)
+{width: 220px;height: 40px;font-family: "roboto";font-size: 14px;color: gray;border: none;border: 1px solid #CECDCD;border-radius: 2px;text-align: left;outline: none;position: absolute;left: 473px;top: 18px;padding-left: 16px;}
+div.form input:nth-child(4)
+{width: 184px;height: 40px;font-family: "roboto";font-size: 14px;color: gray;border: none;border: 1px solid #CECDCD;border-radius: 2px;text-align: center;outline: none;position: absolute;left: 724px;top: 18px;}
+div.form p:nth-child(5)
+{
+position: absolute!important;
+    left: 22px!important;
+    top: 27px!important;
+    font-style: normal;
+    color: #777;
+    font-family: "roboto";
+    font-size: 18px;
+}
+div.form span:nth-child(6)
+{
+    width: 137px;
+    height: 26px;
+    font-family: "roboto2";
+    font-size: 11px;
+    color: white;
+    border-radius: 2px;
+    border-radius: 2px;
+    text-align: center;
+    outline: none;
+    position: absolute;
+    left: 940px;
+    top: 18px;
+    background-color: #009e3b;
+    padding-top: 13px;
+    cursor: pointer;
+}
+div.form input:nth-child(7)
+{
+width: 124px;
+    height: 40px;
+    font-family: "roboto";
+    font-size: 14px;
+    color: gray;
+    border: none;
+    border: 1px solid #CECDCD;
+    border-radius: 2px;
+    text-align: center;
+    outline: none;
+    position: absolute;
+    left: 809px;
+    top: 18px;
+}
+div.f
+{
+  background-color: #009688;
+}
+div.f span
+{position: absolute;left: 560px;top: 24px;width: 311px;height: 40px;border-radius: 1px;background-color: #009688;color: white;}
+div.f span i:nth-child(1)
+{
+      font-size: 25px;
+      top: 6px;
+      left: -1px;
+      position: absolute;
+      font-style: normal;
+      color: white;
+      font-family: "roboto";
+      font-weight: 400;
+}
+div.f span i:nth-child(2)
+{
+      font-size: 18px;
+      top: 10px;
+      left: 65px;
+      position: absolute;
+      font-style: normal;
+      color: white;
+      font-family: "roboto2";
+}
+div.f span i:nth-child(3)
+{
+      font-size: 25px;
+      top: 7px;
+      left: 88px;
+      position: absolute;
+      font-style: normal;
+      color: white;
+      font-family: "roboto";
+}
+div.f button
+{
+  position: absolute;
+  bottom: 17px;
+  right: 38px;
+  margin-left: -200px;
+  width: 211px;
+  height: 40px;
+  border: none;
+  background-color: white;
+  color: #555;
+  font-family: "roboto2";
+  font-size: 13px;
+  border-radius: 2px;
+  cursor: pointer;
+}
+div.form p:nth-child(5) i
+{
+  font-style: normal;
+}
+div.titling
+{
+  position: absolute;
+  width: 1029px;
+  height: 54px;
+  background-color: #009688;
+  left: 0;
+  top: 0;
+  color: white;
+  border-radius: 2px;
+  font-family: "roboto";
+  font-size: 19px;
+  text-align: left;
+  padding-top: 24px;
+  padding-left: 73Px;
+}
+div.titling i
+{
+  position: absolute;
+  left: 28px;
+  top: 18px;
+  height: 30px;
+  width: 30px;
+  background-image: url('../../../template/Extras/Image/book.png');
+  background-size: 100% 100%;
+}
+div.f button i
+{
+  position: absolute;
+  left: 61px;
+  top: 16px;
+  height: 10px;
+  width: 12px;
+  background-image: url('../../../template/Extras/Image/sss.png');
+  background-size: 100% 100%;
+}

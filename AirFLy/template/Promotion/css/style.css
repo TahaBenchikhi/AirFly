@@ -1,0 +1,207 @@
+body
+{
+   background-color: #e9e9e9;
+}
+div.container
+{
+   width: 800px;
+   min-height: 400px;
+   position: absolute;
+   left: calc(50% - 400px);
+   top: 100px;
+}
+div.promos
+{
+	width: 100%;
+	position: relative;
+	top: 97px;
+}
+div.promo
+{
+	position: relative;
+	width: 656px;
+	height: 165px;
+	background-color: white;
+	margin-top: 10px;
+	float: left;
+	border-radius: 2px;
+	left: 43px;
+	opacity: 0;
+	transition: all 0.8s;
+}
+form.sf
+{
+	width: 509px;
+	height: 39px;
+	position: absolute;
+	background: rgba(0, 0, 0, 0.63);
+	border-radius: 2px;
+	left: 139px;
+	top: -5px;
+}
+form.sf input:first-child
+{
+    position: absolute;
+    width: 211px;
+    height: 33px;
+    border-radius: 1px;
+    border: 1px solid #ccc;
+    font-size: 13px;
+    font-family: "roboto";
+    background-color: white;
+    color: #555;
+    padding-left: 15px;
+    outline: none;
+    font-weight: bold;
+    left: 3px;
+    top: 3px;
+}
+form.sf input:nth-child(2)
+{
+	    position: absolute;
+	    width: 211px;
+	    height: 33px;
+	    border-radius: 1px;
+	    border: 1px solid #ccc;
+	    font-size: 13px;
+	    font-family: "roboto";
+	    background-color: white;
+	    color: #555;
+	    padding-left: 12px;
+	    outline: none;
+	    font-weight: bold;
+	    left: 217px;
+	    top: 3px;
+}
+form.sf button
+{
+	position: absolute;
+	right: 4px;
+	width: 73px;
+	height: 33px;
+	border: none;
+	border-radius: 1px;
+	background-color: #F44336;
+	color: white;
+	font-family: "roboto";
+	top: 3px;
+	cursor: pointer;
+	transition: all 0.4s;
+	padding-top: 5px;
+}
+button img
+{
+	position: absolute;
+	left: 25px;
+	top: 7px;
+	z-index: 1;
+	width: 23px;
+}
+div.promo img
+{
+	width: 219px;
+	height: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+	border-radius: 2px;
+	background-size: cover;
+}
+div.promo p
+{width: 300px;height: 146px;position: absolute;left: 222px;top: 5px;}
+div.promo p i:nth-child(1)
+{
+	position: absolute;
+	left: 37px;
+	top: 1px;
+	font-family: "roboto";
+	font-style: normal;
+	font-size: 26px;
+	color: #2B1201;
+}
+div.promo p i:nth-child(2)
+{
+	position: absolute;
+	left: 3px;
+	top: 39px;
+	font-family: "roboto";
+	font-style: normal;
+	color: #2B1201;
+}
+div.promo p i:nth-child(3)
+{
+	position: absolute;
+	left: 55px;
+	top: 57px;
+	font-family: "roboto";
+	font-style: normal;
+	font-size: 38px;
+	color: brown;
+}
+div.promo p i:nth-child(4)
+{
+	position: absolute;
+	left: 141px;
+	top: 98px;
+	font-family: "roboto";
+	font-style: normal;
+	color: brown;
+}
+div.promo p i:nth-child(5)
+{
+	position: absolute;
+	left: 26px;
+	top: 132px;
+	font-family: "roboto2";
+	font-style: normal;
+	color: brown;
+}
+div.desc
+{
+	width: 184px;
+	height: 80px;
+	line-height: 21px;
+	position: absolute;
+	right: 17px;
+	overflow: hidden;
+	top: 38px;
+	font-family: "robotobold";
+	font-size: 13px;
+	color: #3C2E2E;
+	border-left: 1px solid #DEDEDE;
+	border-radius: 2px;
+	padding: 6px;
+}
+div.promo  button
+{
+		position: absolute;
+		right: 30px;
+		width: 157px;
+		height: 33px;
+		border: none;
+		border-radius: 1px;
+		background-color: brown;
+		color: white;
+		font-family: "robotobold";
+		bottom: 6px;
+		cursor: pointer;
+		transition: all 0.4s;
+		padding-top: 2px;
+}
+div.found
+{
+	    position: absolute;
+	    width: 200px;
+	    text-align: center;
+	    height: 23px;
+	    left: calc(50% - 100px);
+	    top: -29px;
+	    font-size: 13px;
+	    font-family: "roboto2";
+	    color: white;
+	    transition: all 0.8s;
+	    background: #009688;
+	    border-radius: 2px;
+	    padding-top: 7px;
+	    opacity: 0;
+}

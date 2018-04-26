@@ -1,0 +1,162 @@
+*{margin:0px;}
+div.schema
+{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	left: 0px;
+	top: 0px;
+	overflow: hidden;
+	background: rgba(34, 34, 34, 0.99);
+	z-index: 2;
+	display: none;
+	opacity: 0;
+
+}
+
+div.air_container
+{
+	width: 1200px;
+	height: 250px;
+	position: relative;
+	left: 50%;
+	top: 50%;
+	margin-left: -600px;
+	margin-top: -125px;
+	z-index: 2;
+	display: none;
+	opacity: 0;
+
+}
+div.first_class
+{
+	position: absolute;
+	width: 84px;
+	height: 131px;
+	left: 252px;
+	top: 39px;
+	padding-top: 4px;
+}
+div.first_class div , div.midle_class div ,div.last_class div 
+{
+	width: 18px;
+	height: 18px;
+	background-color: #009688;
+	float: left;
+	margin-left: 7px;
+	margin-top: 3px;
+	border-radius: 1px;
+	cursor: pointer;
+	transition : all 0.5s;
+}
+div.midle_class
+{
+	position: absolute;
+	width: 205px;
+	height: 131px;
+	left: 349px;
+	top: 44px;
+}
+div.last_class
+{
+	position: absolute;
+	width: 501px;
+	height: 131px;
+	left: 572px;
+	top: 44px;
+}
+
+
+    button.valid
+  {
+position: absolute;
+    bottom: -70px;
+    right: 7px;
+    margin-left: -200px;
+    width: 151px;
+    height: 35px;
+    border: none;
+    background-color: #009688;
+    color: whitesmoke;
+    font-family: "robotobold";
+    font-size: 13px;
+    border-radius: 2px;
+    cursor: pointer;
+  }
+
+p.exit
+{
+	position: absolute;
+    left: 200px;
+    top: -15px;
+	color: white;
+  	font-family: "roboto";
+    font-size: 25px;
+}
+div.map1,div.map2,div.map3,div.map4 {
+    position: absolute;
+    width: 160px;
+    height: 28px;
+    font-family: "roboto";
+    color: white;
+    font-size: 13px;
+    text-align: right;
+    padding-top: 5px;
+    top: 209px;
+}
+div.map1 {
+    left: 624px;
+    width: 95px;
+}
+div.map2 {
+    left: 745px;
+    width: 145px;
+
+}
+div.map3 {
+    left: 910px;
+    width: 99px;
+}
+div.map4 {
+    left: 449px;
+}
+div.map1 span ,div.map2 span ,div.map3 span,div.map4 span 
+{
+		width: 18px;
+		height: 18px;
+		background-color: #009688;
+		position: absolute;
+		margin-left: 7px;
+		margin-top: 3px;
+		top: 2px;
+		left: 0px;
+		border-radius: 1px;
+}
+div.map3 span { background-color: rgb(255, 193, 7);}
+div.map2 span {background-color: rgb(244, 67, 54);}
+div.map4 span {background-color: rgb(63, 81, 181);}
+div.air_container p:last-child
+{
+    position: absolute;
+    left: 502px;
+    top: -81px;
+    font-family: "roboto";
+    color: whitesmoke;
+    font-size: 22px;
+
+}
+button.annuler {
+    position: absolute;
+    bottom: -70px;
+    right: 177px;
+    margin-left: -200px;
+    width: 151px;
+    height: 35px;
+    border: none;
+    background-color: #F44336;
+    color: whitesmoke;
+    font-family: "robotobold";
+    font-size: 13px;
+    border-radius: 2px;
+    cursor: pointer;
+}

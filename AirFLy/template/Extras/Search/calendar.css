@@ -1,0 +1,322 @@
+*{margin:0px;}
+
+
+
+aside.aside1{transition : all 0.6s;width: 186px;min-width: 150px;max-width: 300px;position: absolute;right: 406px;border-radius: 5px;display: none;opacity:0;top: 38px;z-index: 999;}
+aside.aside2{transition : all 0.6s;width: 186px;min-width: 150px;max-width: 300px;position: absolute;right: 214px;border-radius: 5px;display:none;opacity:0;top: 38px;z-index: 999;}
+
+.ui-datepicker-header {
+    background: #EAEAEA;
+    color: #333;
+    font-weight: bold;
+    line-height: 30px;
+    font-size: 12px;
+}  
+
+
+
+.ui-datepicker {
+  display: block;
+  text-align: center;
+  font-family: "roboto";
+  color: #666;
+  background: #FAFAFA;
+}
+
+.date-block{
+  text-align: center;
+  background: #009688;
+  font-family: "roboto";
+  color: #EEE;
+  font-size: 11pt;
+  padding: 10px;
+}
+
+.date-day{
+  font-size: 18pt;
+}
+.date-date{
+  font-size: 25pt;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: inline-block;
+    font-family: "roboto";
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color:none;
+    background-repeat: no-repeat;
+    position: relative;
+    color: #009688 !important;
+    top: -30px;
+}
+.ui-datepicker-prev {  
+    float: left;  
+    background-position: center -30px;  
+}  
+.ui-datepicker-next {  
+    float: right;  
+    background-position: center 0px;  
+}  
+
+.ui-datepicker-prev:before {
+  content: "Prev";
+  display: block;
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+.ui-datepicker-next:before {
+  content: "Next";
+  display: block;
+  color: rgba(0, 0, 0, 0) !important;
+}
+
+.ui-datepicker-year{
+  font-weight: normal;
+  font-size: 15px;
+}
+
+
+
+.ui-datepicker-calendar {
+  border-collapse:collapse;
+  width: 100%;
+  margin-top: 7px;
+  text-align: center;
+  background: #FAFAFA;
+  font-family: "roboto";
+  font-size: 11px;
+}
+.ui-datepicker td a{
+  text-decoration: none;
+}
+.ui-datepicker td a, .ui-datepicker td span{
+  display: block;
+  width: 100%;
+  font-size: 10px;
+  padding: 6px 0;
+  color: #333;
+}
+
+.ui-datepicker td span{
+  color: #BBB;
+}
+
+.ui-datepicker .ui-state-active {
+  background: #EEE;
+}
+.ui-datepicker .ui-state-highlight {
+  background: #FFF;
+  color: #2196F3;
+}
+
+.ui-datepicker td.past {
+  color:#BBB;
+}
+
+.ui-datepicker a:hover {
+  background: #009688;
+  color: #FFF;
+}
+input#date,input#date2
+{
+  position: absolute;
+  width: 190px;
+  height: 33px;
+  border-radius:1px;
+  border:1px solid #ccc;
+  font-size: 13px;
+  font-family: "roboto";
+  background-color: white;
+  color: #555;
+  padding-left: 8px;
+    outline: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+#places
+{
+  position: absolute;
+    width: 127px;
+    height: 23px;
+  border-radius:1px;
+  border:1px solid #ccc;
+  font-size: 12px;
+  font-family: "roboto";
+  background-color: white;
+  color: #555;
+  padding-left: 8px;
+    outline: none;
+  font-weight: bold;
+    top: 3px;
+  right: 73px;
+    cursor: pointer;
+    padding-top: 8px;
+}
+span#places i
+{
+  font-style: normal;
+}
+input#date
+{
+  top: 3px;
+  right: 405px;
+}
+input#date2
+{
+  top: 3px;
+  right: 212px;
+}
+div#search_cn
+{
+  position: absolute;
+  width: 1130px;
+  height: 40px;
+  top: 272px;
+  left: calc(50% - 565px);
+}
+div#search
+{
+  height: 40px;
+  width: 1080px;
+  position: absolute;
+  left: 34px;
+  top: 1px;
+  border-radius: 2px;
+  z-index: 1;
+}
+div#search_background
+{
+  height: 40px;
+  width: 1130px;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.45);
+  left: 0px;
+  top: 0px;
+  border-radius: 2px;
+}
+input.s1,input.s2
+{
+  position: absolute;
+  width: 175px;
+  height: 33px;
+  border-radius:1px;
+  border:1px solid #ccc;
+  font-size: 13px;
+  font-family: "roboto";
+  background-color: white;
+  color: #555;
+  padding-left: 8px;
+    outline: none;
+  font-weight: bold;
+}
+input.s1
+{
+  left: -29px;
+  top: 3px;
+}
+input.s2
+{
+  left: 147px;
+  top: 3px;
+}
+button#find
+{
+  position: absolute;
+  right: -12px;
+  width: 82px;
+  height: 33px;
+  border:none;
+  border-radius: 1px;
+  background-color: #009688;
+  color: white;
+  font-family: "roboto";
+  top: 3px;
+  cursor: pointer;
+  transition: all 0.4s;
+  padding-top: 5px;
+}
+button#find:hover {
+    background-color: #036D63;
+}
+
+#form_search img:nth-child(1)
+{position: absolute;left: 633px;top: 8px;z-index: 1;opacity: 0.7;width: 23px;}
+#form_search img:nth-child(3)
+{position: absolute;right: 227px;top: 8px;z-index: 1;opacity: 0.7;width: 23px;}
+#form_search img:nth-child(5)
+{position: absolute;left: 117px;top: 10px;z-index: 1;opacity: 0.7;width: 23px;}
+#form_search img:nth-child(7)
+{position: absolute;left: 294px;top: 10px;z-index: 1;opacity: 0.7;width: 23px;}
+button#find img
+{position: absolute;left: 29px!important;top: 6px!important;z-index: 1;opacity: 1!important;width: 23px;}
+div.choseplace
+{
+    width: 227px;
+    height: 90px;
+    background-color: white;
+    position: absolute;
+    left: 868px;
+    top: 44px;
+    border-radius: 2px;
+    transition : all 0.6s;
+    display:none;
+opacity:0;
+}
+
+div.choseplace p:first-child,div.choseplace p:nth-child(3),div.choseplace p:nth-child(5)
+{
+   font-size: 13px;
+  font-family: "roboto";
+  font-weight: bold;
+  color: rgba(68, 68, 68, 0.74);
+  position: absolute;
+  top: 9px;
+  left: 5px;
+}
+div.choseplace p:first-child{ top: 9px;}
+div.choseplace p:nth-child(3){ top: 38px;}
+div.choseplace p:nth-child(5){ top: 65px;}
+
+div.choseplace input:nth-child(2),div.choseplace input:nth-child(4),div.choseplace input:nth-child(6)
+{
+    position: absolute;
+  width: 155px;
+  height: 23px;
+  border-radius:1px;
+  border:none;
+  border-bottom:1px solid #ccc;
+  font-size: 13px;
+  font-family: "roboto";
+  background-color: white;
+  color: #555;
+  padding-left: 8px;
+    outline: none;
+  font-weight: bold;
+  cursor: pointer;
+  right: 15px;
+}
+div.choseplace input:nth-child(2){top:2px;}
+div.choseplace input:nth-child(4){top:29px;}
+div.choseplace input:nth-child(6){top:56px;}
+select#class
+{
+    position: absolute;
+    width: 157px;
+    height: 33px;
+    top: 3px;
+    border-radius: 1px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-size: 13px;
+    font-family: "roboto";
+    background-color: white;
+    color: #555;
+    padding-left: 8px;
+    outline: none;
+    font-weight: bold;
+    cursor: pointer;
+    left: 325px;
+}

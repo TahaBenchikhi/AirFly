@@ -1,0 +1,199 @@
+*{margin:0px;}
+@font-face{src:url("../../../template/Extras/Font/Roboto-LightItalic.ttf");font-family: "robotoitalic"}
+@font-face{src:url("../../../template/Extras/Font/Roboto-Light.ttf");font-family: "roboto"}
+@font-face{src:url("../../../template/Extras/Font/Roboto-Regular.ttf");font-family: "robotobold"}
+@font-face{src:url("../../../template/Extras/Font/fontastique.ttf");font-family: "fonta"}
+@font-face{src:url("../../../template/Extras/Font/Roboto-Thin.ttf");font-family: "thinitalic"}
+@font-face{src:url("../../../template/Extras/Font/Roboto-Medium.ttf");font-family: "roboto2"}
+div.cn
+{
+	height: 100%;
+	width: 100%;
+	position: relative;
+	top: 0px;
+}
+
+header.cn__head
+{
+	position: absolute;
+	top: 0px;
+	width: 100%;
+	height: 45px;
+	background-color: white;
+	z-index: 1;
+	z-index: 4;
+}
+div.cn__head__center
+{
+  width: 1300px;
+  left: calc(50% - 650px);
+  height: 100%;
+  position: absolute;
+  background-color: white;
+
+}
+img#logo
+{
+	position: absolute;
+	left: 107px;
+	height: 35px;
+	width: 35px;
+	top: 3px;
+}
+span#logo_label
+{
+	position: absolute;
+	width: 160px;
+	height: 30px;
+	color: #555;
+	left: 67px;
+	top: 13px;
+	font-size: 23px;
+	font-style: italic;
+	font-family: "fonta";
+	font-size: 21px;
+	color: #0172A0;
+}
+span#logo_label i
+{
+	color: #2496D8;
+	position: absolute;
+	left: 80px;
+}
+ul.nav
+{
+	width: 641px;
+	height: 100%;
+	position: absolute;
+	left: 176px;
+}
+ul.nav li
+{
+	float: left;
+	padding: 15px 10px;
+	height: 13px;
+	margin-top: 1px;
+	margin-left: 6px;
+	list-style: none;
+	cursor: pointer;
+}
+ul.nav li:hover
+{
+	border-bottom: 1px solid #BFBEBE;
+
+}
+ul.nav li a
+{
+  text-decoration: none;
+  color: #6B6A6A;
+  font-family: "robotobold";
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+}
+div.cn__head__center form
+{
+	width: 400px;
+	position: absolute;
+	right: 93px;
+	height: 30px;
+	top: 12px;
+	border-right: 1px solid rgba(158, 158, 158, 0.33);
+}
+div.cn__head__center form > input[type="text"],input[type="password"]
+{
+	padding-left: 9px;
+	border-radius: 1px;
+	border:none;
+	border:1px solid #ccc;
+	height: 25px;
+	font-family: "roboto";
+	color: #555;
+	width: 161px;
+	outline: none;
+}
+button.sub
+{
+	width: 60px;
+	height: 24px;
+	background-color: #0165A0;
+	position: absolute;
+	right: 8px;
+	color: white;
+	font-size: 11px;
+	font-family: "robotobold";
+	border:none;
+	border-radius: 2px;
+	top: 1px;
+	cursor: pointer;
+}
+span#inscription
+{
+   position: absolute;
+   right: -100px;
+   width:90px;
+   height: 19px;
+   border:none;
+   border-radius: 2px;
+   background-color: #009083;
+   color: white;
+   font-family: "robotobold";
+   top: 0px;
+   cursor: pointer;
+   text-decoration: none;
+   font-size: 12px;
+   text-align: center;
+   padding-top: 6px;
+}
+div.cn__head__center > form > img:nth-child(1)
+{position: absolute;left: 301px;top: 3px;z-index: 1;opacity: 0.7;width: 20px;}
+div.cn__head__center > form > img:nth-child(3)
+{position: absolute;left: 134px;top: 3px;z-index: 1;opacity: 0.6;width: 21px;}
+div.compte
+{
+	width: 400px;
+	right: 0px;
+	height: 100%;
+	position: absolute;
+}
+div.compte a
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    right: 0px;
+    top: 8px;
+
+}
+div.compte a img
+{
+	width: 30px;
+	height: 30px;
+	opacity: 0.6;
+}
+div.compte span
+{
+    font-size: 14px;
+    font-family: "robotobold";
+    color: #555;
+    position: absolute;
+    top: 17px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    padding-left: 60px;
+    padding-right: 16Px;
+    float: right;
+    left: 50px;
+    font-weight: bold;
+    opacity: 0.9;
+}
+div.compte span::first-letter{text-transform: capitalize;}
+img#pers
+{
+	width: 25px;
+	height: 25px;
+	opacity: 0.6;
+	position: absolute;
+	top: 12px;
+	left: 68px;
+}

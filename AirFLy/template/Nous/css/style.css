@@ -1,0 +1,42 @@
+body
+{
+   background-color: #e9e9e9;
+   overflow: hidden;
+}
+div.container
+{
+   width: 800px;
+   min-height: 400px;
+
+   position: absolute;
+   left: calc(50% - 400px);
+   top: 100px;
+}
+div#search_cn
+{
+   top: 0px;
+   left: -156px;
+}
+div.tickets div.content span:first-child
+{position: absolute;left: 86px;top: 32px;font-size: 16px;font-family: 'robotobold';color: #0165A0;}
+div.tickets div.content span:nth-child(2)
+{position: absolute;left: 67px;top: 181px;color: white;font-family: 'roboto';font-size: 14px;}
+div.tickets div.content span:nth-child(2) i
+{position: absolute;left: 87px;top: -1px;width: 132px;font-style: normal;font-size: 16Px;font-family: 'roboto';color: white;}
+div.tickets div.content span:nth-child(3)
+{position: absolute;left: 379px;top: 183px;color: white;font-family: 'roboto';font-size: 14px;}
+div.tickets div.content span:nth-child(3) i
+{position: absolute;left: 57px;top: -2px;width: 132px;font-style: normal;font-size: 16Px;font-family: 'roboto';color: white;}
+div.tickets div.content  img
+{
+   position: absolute;
+   left: 0px;
+   top: 71px;
+   width: 62px;
+   height: 67px;
+   left: 298px;
+}
+.ticket
+{
+   background-color:#0165A0!important;
+}
